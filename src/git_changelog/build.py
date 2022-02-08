@@ -294,7 +294,8 @@ class Changelog:
 
             elif self.remote_url:
                 # set the commit url based on remote_url (could be wrong)
-                commit.url = self.remote_url + "/commit/" + commit.hash
+                #commit.url = self.remote_url + "/commit/" + commit.hash
+                pass
 
             # expand commit object with style parsing
             if self.style:
